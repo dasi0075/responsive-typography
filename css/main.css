@@ -21,11 +21,14 @@ html {
 }
 
 body {
+  margin: 0;
   margin-left: 1em;
+  margin-right: 1em;
 }
 
 article {
   max-width: 43em;
+  display: block;
 }
 
 article h1 {
@@ -67,8 +70,6 @@ ol {
 @media only screen and (min-width: 25em) {
 
   html {
-    display: inline-block;
-    max-width: 30em;
     font-size:
     line-height:
   }
@@ -78,8 +79,6 @@ ol {
 @media only screen and (min-width: 38em) {
 
   html {
-    display: inline-block;
-    max-width: 40em;
     font-size:
     line-height:
   }
@@ -89,8 +88,6 @@ ol {
 @media only screen and (min-width: 60em) {
 
   html {
-    display: inline-block;
-    max-width: 60em;
     font-size:
     line-height:
   }
@@ -100,8 +97,6 @@ ol {
 @media only screen and (min-width: 90em) {
 
   html {
-    display: inline-block;
-    max-width: 80em;
     font-size:
     line-height:
   }
