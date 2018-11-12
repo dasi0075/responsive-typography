@@ -66,16 +66,16 @@ ol {
 
 @media only screen and (min-width: 25em) {
 
-  article {
+  html {
     display: inline-block;
-    max-width: 24em;
+    max-width: 20em;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  article {
+  html {
     display: inline-block;
     max-width: 24em;
   }
@@ -84,7 +84,16 @@ ol {
 
 @media only screen and (min-width: 60em) {
 
-  article {
+  html {
+    display: inline-block;
+    max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
     display: inline-block;
     max-width: 24em;
   }
