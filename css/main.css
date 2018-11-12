@@ -12,10 +12,16 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
+  font-family: Crimson, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin-left: 1em;
 }
 
 article {
@@ -24,6 +30,7 @@ article {
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -32,18 +39,54 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: .5em;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ol {
+  padding-left: 1em;
 }
 
 .quote {
   color: #999;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  article {
+    display: inline-block;
+    max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  article {
+    display: inline-block;
+    max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  article {
+    display: inline-block;
+    max-width: 24em;
+  }
+
 }
