@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
-  font-family: "Crimson text", serif;
+  font-family: Crimson text;
   line-height: 1.3;
 }
 
@@ -72,7 +72,7 @@ ol {
 
   html {
     font-size: 100%;
-    line-height:1.3;
+    line-height: 1.3;
   }
 
 }
@@ -99,7 +99,8 @@ ol {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
+    width: auto;
+    max-width: 50%;
   }
 
 }
