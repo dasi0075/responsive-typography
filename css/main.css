@@ -45,12 +45,13 @@ article header {
 article header p {
   font-style: italic;
   margin-top: 0;
+  padding-bottom: .5em;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
   padding-bottom: 1.5em;
-  margin-bottom: .5em;
+  margin-bottom: 1.3em;
 }
 
 blockquote {
