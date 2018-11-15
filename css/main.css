@@ -110,7 +110,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: .8em;
+    padding-bottom: 1em;
   }
 
 }
@@ -132,7 +132,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: .9em;
+    padding-bottom: 1.5em;
   }
 
 }
@@ -156,7 +156,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 1em;
+    padding-bottom: 1.8em;
   }
 
 }
