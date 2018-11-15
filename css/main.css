@@ -71,7 +71,6 @@ article ol {
   color: #999;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   html {
@@ -85,6 +84,11 @@ article ol {
 
   article p {
     padding-bottom: .3rem;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+    padding-bottom: .6em;
   }
 
 }
@@ -104,6 +108,11 @@ article ol {
     padding-bottom: .4rem;
   }
 
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+    padding-bottom: .8em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -119,6 +128,11 @@ article ol {
 
   article p {
     padding-bottom: .4rem;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+    padding-bottom: .9em;
   }
 
 }
@@ -140,5 +154,9 @@ article ol {
     padding-bottom: .5rem;
   }
 
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+    padding-bottom: 1em;
+  }
 
 }
