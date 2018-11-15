@@ -118,7 +118,7 @@ article ol {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
+    font-size: 120%;
     line-height: 1.5;
   }
 
@@ -136,7 +136,7 @@ article ol {
   }
 
   article > p:first-child {
-    padding-top: 2em;
+    padding-top: 3em;
   }
 
 }
@@ -144,7 +144,7 @@ article ol {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 115%;
+    font-size: 130%;
   }
 
   article {
