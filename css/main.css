@@ -88,7 +88,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: .6em;
+    padding-bottom: 1em;
   }
 
 }
@@ -97,7 +97,7 @@ article ol {
 
   html {
     font-size: 110%;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   article {
@@ -110,7 +110,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 
 }
@@ -118,7 +118,7 @@ article ol {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 120%;
+    font-size: 115%;
     line-height: 1.5;
   }
 
@@ -132,7 +132,11 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 1.5em;
+    padding-bottom: 5em;
+  }
+
+  article > p:first-child {
+    padding-top: 2em;
   }
 
 }
@@ -140,11 +144,11 @@ article ol {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%;
+    font-size: 120%;
   }
 
   article {
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     display: block;
     width: auto;
     max-width: 33em;
@@ -156,7 +160,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 1.8em;
+    padding-bottom: 2em;
   }
 
 }
