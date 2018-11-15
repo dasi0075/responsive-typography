@@ -48,7 +48,7 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
 blockquote {
@@ -65,16 +65,21 @@ article p {
 
 .quote {
   color: #999;
-  padding: 0;
+  padding-bottom: .1em;
 }
 
 article > p:nth-child(2) {
-  padding-top: .4em;
+  padding-top: .5em;
 }
 
 article ol {
   padding-left: 1em;
   padding-bottom: .3em;
+}
+
+article > p:nth-child(6) {
+  padding-bottom: .4em;
+  padding-top: 0;
 }
 
 @media only screen and (min-width: 25em) {
