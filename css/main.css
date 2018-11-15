@@ -59,7 +59,11 @@ blockquote {
   margin-right: 0;
 }
 
-ol {
+article p {
+  padding-bottom: .2rem;
+}
+
+article ol {
   padding-left: 1em;
 }
 
