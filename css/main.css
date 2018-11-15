@@ -108,9 +108,17 @@ article ol {
     padding-bottom: .4rem;
   }
 
+  article > p:first-child {
+    padding-top: 2em;
+  }
+
+  article ol {
+    padding-bottom: .5em;
+  }
+
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
   }
 
 }
@@ -132,11 +140,11 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 5em;
+    padding-bottom: 3em;
   }
 
   article > p:first-child {
-    padding-top: 3em;
+    padding-top: .5em;
   }
 
 }
@@ -160,7 +168,7 @@ article ol {
 
   article > p:last-child {
     border-bottom: 1px solid #999;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
   }
 
 }
