@@ -108,8 +108,8 @@ article ol {
     padding-bottom: .4rem;
   }
 
-  article > p:first-child {
-    padding-top: 2em;
+  article > p:nth-child(2) {
+    padding-top: .5em;
   }
 
   article ol {
